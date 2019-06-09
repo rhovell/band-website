@@ -1,10 +1,12 @@
 {
-  "name": "React-template-nextjs",
+  "name": "Band-Website",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple React Template with components, pages ans static elements.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "keywords": [],
   "author": "Rachel's Eco Design",
@@ -14,9 +16,13 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
-  "scripts": {
-  "dev": "next",
-  "build": "next build",
-  "start": "next start"
-  }
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhovell/band-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rhovell/band-website/issues"
+  },
+  "homepage": "https://github.com/rhovell/band-website#readme"
 }
